@@ -1,0 +1,21 @@
+"TL_SELECT_APPS_EXPLANATION" = "Banner notifications will not be displayed while these apps are active. Changes apply immediately.";
+"TL_SELECT_APPS_LIST_TITLE" = "Suppress banners in these apps";
+"TL_SELECT_APPS_LINK_TITLE" = "Select Apps...";
+"TL_SEND_SUMMARIES_SECTION_TITLE" = "Summary Notifications";
+"TL_SEND_SUMMARIES_SWITCH_TITLE" = "Send Them";
+"TL_SEND_SUMMARIES_EXPLANATION" = "When enabled, a short summary of missed notifications will be displayed after leaving an app that has notifications suppressed.";
+"TL_DONATE_LINK_TITLE" = "Donate (PayPal)";
+"TL_DONATION_FOOTER" = "If you think this tweak is worth paying for.";
+"TL_CREDIT_STRING" = " ";
+
+"TL_WATCH_SECTION_TITLE" = "Apple Watch";
+"TL_WATCH_EXPLANATION" = "When enabled, suppressed notifications will be delivered to your Apple Watch rather than being hidden entirely.";
+"TL_WATCH_SWITCH_TITLE" = "Send Banners to Watch";
+
+"TL_WHITELISTED_APPS_HEADER" = "Whitelist";
+"TL_WHITELISTED_APPS_EXPLANATION" = "Banners from these apps will always be displayed even if you are in an app selected above.";
+"TL_WHITELISTED_APPS_LINK_TITLE" = "Whitelisted Apps...";
+
+"TL_NATIVE_DND_TITLE" = "System DND";
+"TL_NATIVE_DND_EXPLANATION" = "Using the built-in Do Not Disturb mode will also block calls (according to your iOS settings).";
+"TL_NATIVE_DND_SWITCH_TITLE" = "Use Do Not Disturb";

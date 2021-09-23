@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string></string>
+            <key>footerText</key>
+            <string>TL_SELECT_APPS_EXPLANATION</string>
+        </dict>
+        <dict>
+            <key>ALAllowsSelection</key>
+            <string>0</string>
+            <key>ALSettingsPath</key>
+            <string>/var/mobile/Library/Preferences/ca.kirara.Voltage.preferences.plist</string>
+            <key>ALSettingsKeyPrefix</key>
+            <string>Suppress-</string>
+            <key>ALChangeNotification</key>
+            <string>ca.kirara.Voltage.dynamic-preference-changed</string>
+            <key>ALSectionDescriptors</key>
+            <array>
+                <dict>
+                    <key>cell-class-name</key>
+                    <string>ALSwitchCell</string>
+                    <key>icon-size</key>
+                    <string>29</string>
+                    <key>suppress-hidden-apps</key>
+                    <integer>1</integer>
+                    <key>title</key>
+                    <string>System Applications</string>
+                    <key>predicate</key>
+                    <string>isSystemApplication = TRUE</string>
+                </dict>
+                <dict>
+                    <key>cell-class-name</key>
+                    <string>ALSwitchCell</string>
+                    <key>icon-size</key>
+                    <string>29</string>
+                    <key>suppress-hidden-apps</key>
+                    <integer>1</integer>
+                    <key>title</key>
+                    <string>User Applications</string>
+                    <key>predicate</key>
+                    <string>isSystemApplication = FALSE</string>
+                </dict>
+            </array>
+            <key>bundle</key>
+            <string>AppList</string>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>isController</key>
+            <string>1</string>
+            <key>label</key>
+            <string>TL_SELECT_APPS_LINK_TITLE</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>footerText</key>
+            <string>TL_WATCH_EXPLANATION</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>ca.kirara.Voltage.preferences</string>
+            <key>key</key>
+            <string>dont-suppress-watch</string>
+            <key>PostNotification</key>
+            <string>ca.kirara.Voltage.dynamic-preference-changed</string>
+            <key>label</key>
+            <string>TL_WATCH_SWITCH_TITLE</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>TL_SEND_SUMMARIES_SECTION_TITLE</string>
+            <key>footerText</key>
+            <string>TL_SEND_SUMMARIES_EXPLANATION</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>ca.kirara.Voltage.preferences</string>
+            <key>key</key>
+            <string>send-summary</string>
+            <key>label</key>
+            <string>TL_SEND_SUMMARIES_SWITCH_TITLE</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>action</key>
+            <string>voltageprefsTestSummaryNotification:</string>
+            <key>label</key>
+            <string>Test Summary Notification</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>TL_WHITELISTED_APPS_HEADER</string>
+            <key>footerText</key>
+            <string>TL_WHITELISTED_APPS_EXPLANATION</string>
+        </dict>
+        <dict>
+            <key>ALAllowsSelection</key>
+            <string>0</string>
+            <key>ALSettingsPath</key>
+            <string>/var/mobile/Library/Preferences/ca.kirara.Voltage.preferences.plist</string>
+            <key>ALSettingsKeyPrefix</key>
+            <string>Whitelist-</string>
+            <key>ALChangeNotification</key>
+            <string>ca.kirara.Voltage.dynamic-preference-changed</string>
+            <key>ALSectionDescriptors</key>
+            <array>
+                <dict>
+                    <key>cell-class-name</key>
+                    <string>ALSwitchCell</string>
+                    <key>icon-size</key>
+                    <string>29</string>
+                    <key>suppress-hidden-apps</key>
+                    <integer>1</integer>
+                    <key>title</key>
+                    <string>System Applications</string>
+                    <key>predicate</key>
+                    <string>isSystemApplication = TRUE</string>
+                </dict>
+                <dict>
+                    <key>cell-class-name</key>
+                    <string>ALSwitchCell</string>
+                    <key>icon-size</key>
+                    <string>29</string>
+                    <key>suppress-hidden-apps</key>
+                    <integer>1</integer>
+                    <key>title</key>
+                    <string>User Applications</string>
+                    <key>predicate</key>
+                    <string>isSystemApplication = FALSE</string>
+                </dict>
+            </array>
+            <key>bundle</key>
+            <string>AppList</string>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>isController</key>
+            <string>1</string>
+            <key>label</key>
+            <string>TL_WHITELISTED_APPS_LINK_TITLE</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>TL_NATIVE_DND_TITLE</string>
+            <key>footerText</key>
+            <string>TL_NATIVE_DND_EXPLANATION</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>ca.kirara.Voltage.preferences</string>
+            <key>key</key>
+            <string>native-dnd</string>
+            <key>label</key>
+            <string>TL_NATIVE_DND_SWITCH_TITLE</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string></string>
+            <key>footerText</key>
+            <string>TL_DONATION_FOOTER</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>action</key>
+            <string>voltageprefsOpenPayPalLink:</string>
+            <key>label</key>
+            <string>TL_DONATE_LINK_TITLE</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string></string>
+            <key>footerText</key>
+            <string>1.6.3 © 2017-2021, The Holy Constituency of the Summer Triangle. All rights reserved.</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string></string>
+            <key>footerText</key>
+            <string>TL_CREDIT_STRING</string>
+        </dict>
+    </array>
+    <key>title</key>
+    <string>Eyeplugs</string>
+</dict>
+</plist>

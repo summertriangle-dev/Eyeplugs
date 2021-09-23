@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = VoltagePreferences;
+	cell = PSLinkCell;
+	detail = VoltagePreferencesListController;
+	icon = cPreferencesIcon.png;
+	isController = 1;
+	label = Eyeplugs;
+    };
+}

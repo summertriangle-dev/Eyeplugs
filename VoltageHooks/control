@@ -1,0 +1,11 @@
+Package: ca.kirara.voltage
+Name: Eyeplugs
+Pre-Depends: firmware (>= 9.0)
+Depends: mobilesubstrate, preferenceloader, applist
+Version: 1.6.3
+Architecture: iphoneos-arm
+Description: suppress banners in apps
+Maintainer: The Holy Constituency of the Summer Triangle <summertriangle.dev@gmail.com>
+Author: The Holy Constituency of the Summer Triangle <summertriangle.dev@gmail.com>
+Section: Tweaks
+Depiction: https://bluesymphony.kirara.ca/depiction/ca.kirara.voltage.html

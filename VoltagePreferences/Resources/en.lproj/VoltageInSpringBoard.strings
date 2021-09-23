@@ -1,0 +1,13 @@
+"While you were away..." = "While you were away...";
+"TL_BODY_START_FRAGMENT" = "";
+"TL_BODY_ZERO_NOTIFICATIONS" = "%lu notifications were";
+"TL_BODY_ONE_NOTIFICATION" = "%lu notification was";
+"TL_BODY_SEVERAL_NOTIFICATIONS" = "%lu notifications were";
+"TL_BODY_APP_LIST_FRAGMENT" = "sent by %@";
+"TL_BODY_END_FRAGMENT" = ".";
+
+"TL_APP_LIST_ONLY_ONE" = "\"%@\"";
+"TL_APP_LIST_ONLY_TWO" = "\"%@\" and \"%@\"";
+"TL_APP_LIST_MANY_FRAGMENT" = "\"%@\", ";
+"TL_APP_LIST_MANY_FRAGMENT_LAST" = "and \"%@\"";
+"TL_APP_LIST_MANY_MORE_END" = "%@and more";
